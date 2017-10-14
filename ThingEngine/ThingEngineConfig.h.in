@@ -1,0 +1,6 @@
+namespace Thing 
+{
+	#define VERSION_MAJOR @ThingEngine_VERSION_MAJOR@
+	#define VERSION_MINOR @ThingEngine_VERSION_MINOR@
+	#define VERSION_PATCH @ThingEngine_VERSION_PATCH@
+}
