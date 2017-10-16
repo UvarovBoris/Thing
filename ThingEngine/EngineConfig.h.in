@@ -1,3 +1,5 @@
+#pragma once
+
 namespace Thing 
 {
 	#define VERSION_MAJOR @ThingEngine_VERSION_MAJOR@

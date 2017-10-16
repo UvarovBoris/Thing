@@ -1,12 +1,10 @@
 #include <iostream>
-#include "ThingEngine.h"
+#include "Application.h"
 
-int main()
+int main(int argc, char* argv[])
 {
-	
-	//std::cout << "Hello" << std::endl;
-
-	hello();
+	Thing::Application application;
+	application.initWindow("Thing demo", 1280, 720);
 
 	return 0;
 }
